@@ -64,7 +64,8 @@ fun Register(modifier: Modifier = Modifier){
         Text("Arya Anugrah", color = Color.Red,
             fontWeight = FontWeight.Bold)
         Text("20220140114",
-            fontSize = 30.sp,)
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold)
 
         Image(painter = painterResource(id = R.drawable.arya),
             contentDescription = "",
