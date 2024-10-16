@@ -37,8 +37,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Register(modifier: Modifier = Modifier){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Top,){
-
+        verticalArrangement = Arrangement.Top,
+        modifier = Modifier.fillMaxSize().padding()){
     }
 }
 
