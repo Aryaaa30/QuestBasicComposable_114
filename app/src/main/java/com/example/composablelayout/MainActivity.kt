@@ -61,7 +61,8 @@ fun Register(modifier: Modifier = Modifier){
                 .clip(CircleShape))
 
         Text("Nama")
-        Text("Arya Anugrah", color = Color.Red)
+        Text("Arya Anugrah", color = Color.Red,
+            fontWeight = FontWeight.Bold)
         Text("20220140114",
             fontSize = 30.sp,)
 
