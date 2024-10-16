@@ -43,7 +43,7 @@ fun Register(modifier: Modifier = Modifier){
         modifier = Modifier.fillMaxSize().padding()){
 
         Text("Login",
-            fontSize = 100.sp,
+            fontSize = 50.sp,
             fontWeight = FontWeight.Bold
         )
     }
