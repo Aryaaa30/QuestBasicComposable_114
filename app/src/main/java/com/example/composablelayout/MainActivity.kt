@@ -58,8 +58,12 @@ fun Register(modifier: Modifier = Modifier){
         Spacer(modifier = Modifier.padding(20.dp))
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = "",
-            modifier = Modifier.size(250.dp)
+            modifier = Modifier.padding(5.dp)
+                .size(250.dp)
                 .clip(CircleShape))
+
+        Text("Nama")
+
 
 
     }
