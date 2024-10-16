@@ -49,7 +49,7 @@ fun Register(modifier: Modifier = Modifier){
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(5.dp))
 
-        Text("Ini Adalah Halaman Login",)
+        Text("Ini Adalah Halaman Login")
     }
 }
 
