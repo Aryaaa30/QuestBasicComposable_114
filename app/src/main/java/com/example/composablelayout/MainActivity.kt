@@ -56,7 +56,7 @@ fun Register(modifier: Modifier = Modifier){
         Spacer(modifier = Modifier.padding(5.dp))
 
         Text("Ini Adalah Halaman Login")
-        Spacer(modifier = Modifier.padding(20.dp))
+        Spacer(modifier = Modifier.padding(10.dp))
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = "",
             modifier = Modifier.padding(5.dp)
@@ -70,8 +70,7 @@ fun Register(modifier: Modifier = Modifier){
 
         Image(painter = painterResource(id = R.drawable.arya),
             contentDescription = "",
-            modifier = Modifier.padding(10.dp))
-
+            modifier = Modifier.padding(15.dp))
     }
 }
 
