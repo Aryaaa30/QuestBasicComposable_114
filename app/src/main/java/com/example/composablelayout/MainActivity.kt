@@ -47,7 +47,9 @@ fun Register(modifier: Modifier = Modifier){
         Text("Login",
             fontSize = 50.sp,
             fontWeight = FontWeight.Bold)
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
+
+        Text("Ini Adalah Halaman Login",)
     }
 }
 
