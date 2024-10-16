@@ -65,6 +65,8 @@ fun Register(modifier: Modifier = Modifier){
 
         Text("Nama")
         Text("Arya Anugrah", color = Color.Red)
+        Text("20220140114",
+            fontSize = 30.sp)
 
 
 
