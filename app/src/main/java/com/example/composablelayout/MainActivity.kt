@@ -1,5 +1,6 @@
 package com.example.composablelayout
 
+import android.graphics.drawable.shapes.OvalShape
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -12,6 +13,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -65,11 +67,13 @@ fun Register(modifier: Modifier = Modifier){
             fontWeight = FontWeight.Bold)
         Text("20220140114",
             fontSize = 30.sp,
-            fontWeight = FontWeight.Bold)
+            fontWeight = FontWeight.Bold
+        )
 
         Image(painter = painterResource(id = R.drawable.arya),
             contentDescription = "",
-            modifier = Modifier.padding(15.dp))
+            modifier = Modifier.padding(15.dp)
+                .clip(RoundedCornerShape(50)))
     }
 }
 
